@@ -1,12 +1,15 @@
 .App {
-  text-align: center;
+  background-color: #f9f9f9;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+ul{padding: 0px;}
+li{
+  list-style: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +29,14 @@
 
 .App-link {
   color: #61dafb;
+}
+.card.card-top{
+  padding: 10px;
+}
+.card-wrapper{
+  background-color: #f9f9f9;
+  height: 230px;
+  overflow: hidden;
 }
 
 @keyframes App-logo-spin {
